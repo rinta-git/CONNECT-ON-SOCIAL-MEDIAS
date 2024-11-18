@@ -1,0 +1,104 @@
+:root{
+    --gray900:hsl(0,0%,8%);
+    --gray800:hsl(0,0%,12%);
+    --gray700:hsl(0,0%,20%);
+    --green:hsl(75,94%,57%);
+    --white:hsl(0,0%,100%);
+    --fs1:1.5rem;
+    --fs2:0.875rem;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+    background-color: var(--gray900);
+}
+
+@font-face {
+    font-family: 'InterVariable';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+h1, h4, p{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'InterVariable';
+    line-height: 150%;
+    padding: 0 24px;
+}
+.card{
+    background-color: var(--gray800);
+    padding: 40px;
+    border-radius: 12px;
+}
+.personal-info-section{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+h1{
+    color: var(--white);
+    font-size: var(--fs1);
+    font-weight: 600;
+    margin-bottom: 4px;
+    margin-top: 24px;
+}
+h4{
+    color: var(--green);
+    font-size: var(--fs2);
+    font-weight: 600;
+}
+p{
+    margin: 24px 0;
+    color: var(--white);
+    font-size: var(--fs2);
+}
+.social-platforms-section{
+    display: flex;
+    flex-direction: column;
+}
+.social-platforms-section button{
+    background-color: var(--gray700);
+    color: var(--white);
+    padding: 12px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: var(--fs2);
+    font-weight: 600;
+    transition: 1s;
+    width: 304px;
+}
+
+button:hover{
+    background-color: var(--green);
+    color: var(--gray700);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 16px;
+}
+a:last-child{
+    margin-bottom: 0;
+}
+@media (max-width: 768px) { 
+    .social-platforms-section button {
+        width: 376px;
+    }
+}
+@media (max-width: 375px) { 
+    .social-platforms-section button {
+        width: 279px;
+    }
+    .card{
+        padding: 24px;
+    }
+}
