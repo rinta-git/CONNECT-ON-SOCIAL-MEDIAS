@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://your-solution-url.com)
-- Live Site URL: [CONNECT-ON-SOCIAL-MEDIAS](https://your-live-site-url.com)
+- Solution URL: [Code](https://github.com/rinta-git/CONNECT-ON-SOCIAL-MEDIAS/blob/main/index.html)
+- Live Site URL: [CONNECT-ON-SOCIAL-MEDIAS](https://rinta-git.github.io/CONNECT-ON-SOCIAL-MEDIAS/)
 
 ## My process
 
